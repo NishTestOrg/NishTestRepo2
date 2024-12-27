@@ -1,0 +1,25 @@
+name: Wait and Complete Action
+
+on:
+  push:
+    branches:
+      - main  # Triggers only on pushes to the main branch
+
+jobs:
+  wait-and-complete:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Check out the repository
+      - name: Check out code
+        uses: actions/checkout@v3
+
+      # Step 2: Wait for 120 seconds
+      - name: Wait for 2 mins
+        run: |
+          echo "Waiting for 2 mins..."
+          sleep 120
+
+      # Step 3: Success message
+      - name: Mark as Completed
+        run: echo "All done! Action completed successfully."
