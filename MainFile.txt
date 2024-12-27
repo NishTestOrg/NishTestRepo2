@@ -1,2 +1,2 @@
 Main File in the Book
-echo "Line 2: Feature branch 1 changes" >> testfile.txt
+echo "Line 2: Feature branch 2 conflicting changes" >> testfile.txt
