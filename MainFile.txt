@@ -1,4 +1,4 @@
 Main File in the Book
 echo "Line 2: Feature branch 2 conflicting changes" >> testfile.txt
 echo "Line from branch2"
-echo "Line 2: Main branch conflicting change.  2"
+echo "Line 2: Main branch conflicting change.  2 Feature branch changes added also "
