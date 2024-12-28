@@ -9,3 +9,4 @@ change 4 from other member 3 branch
 change 5 from other member 4 branch
 conflict commit 1
 dummy comment
+dummy comment2 from conflicting branch2
