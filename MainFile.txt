@@ -11,3 +11,5 @@ conflict commit 1
 dummy comment
 dummy comment2 from conflicting branch3
 dummy conflicing work from main
+dummy conflicing work from Main first conflict
+dummy conflicing work from Main second conflict
